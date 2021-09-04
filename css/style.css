@@ -66,3 +66,102 @@ body {
 }
 
             /*ingredients*/
+
+
+.ingredients {
+    margin-bottom: 150px;
+}
+.ingredients__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ingredients__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ingredient {
+    width: 210px;
+    height: 210px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.prod__images {
+    width: 400px;
+    height: 400px;
+}
+.ingredient__images {
+    border: 2px solid purple;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.ingredient__name {
+    font-size: 22px;
+    padding-top: 10px;
+    color: purple;
+}
+.arrow1::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    transform: rotate(210deg);
+    bottom: 70px;
+    left: 200px;
+}
+.arrow2::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    transform: rotate(180deg);
+    bottom: 100px;
+    left: 200px;
+}.arrow3::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    transform: rotate(150deg);
+    bottom: 150px;
+    left: 200px;
+}.arrow4::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    transform: rotate(150deg);
+    bottom: 70px;
+    left: -140px;
+}.arrow5::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    transform: rotate(180deg);
+    bottom: 100px;
+    left: -140px;
+}.arrow6::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    transform: rotate(210deg);
+    bottom: 150px;
+    left: -140px;
+}
