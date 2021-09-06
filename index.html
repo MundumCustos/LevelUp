@@ -34,6 +34,7 @@
               <p class="content__item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque fugiat nulla magni? Similique rem exercitationem fuga ad, eligendi autem consequatur cupiditate, laborum reiciendis, consequuntur iste obcaecati numquam nam amet!</p>
             </li>
           </ul>
+          <a class="button" href="#order" onclick="slowScroll('#order')">ОФОРМИТЬ ЗАКАЗ</a>
         </div>
       </div>
     </div>
@@ -55,8 +56,9 @@
             <p class="ingredient__name  arrow3">Лаванда</p>
           </div>
         </div>
-        <div class="ingredients__wrapper">
+        <div class="ingredients__wrapper test">
           <img class="prod__images" src="images/prod.png" alt="prod">
+          <a class="button" href="#order" onclick="slowScroll('#order')">ОФОРМИТЬ ЗАКАЗ</a>
         </div>
         <div class="ingredients__wrapper">
           <div class="ingredient">
@@ -102,6 +104,45 @@
         </div>
       </div>
       </div>  
+    </div>
+  </section>
+  <section class="promo">
+    <div class="container">
+      <div class="promo__wrapper">
+        <img class="promo__images" src="images/doctor.png" alt="prod">
+        <div class="promo__content">
+          <h2 class="promo__title">Описание</h2>
+          <p class="promo__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque maxime animi exercitationem, natus facilis ducimus voluptatibus, suscipit quia deleniti enim soluta vitae cupiditate in laborum corrupti. Omnis qui atque voluptatum minus debitis a impedit dolorum doloremque perferendis quasi dolor harum ducimus alias, magnam deleniti dolores quam. Porro repellendus dolores tenetur. Eos deserunt, illo id numquam voluptatum magnam obcaecati sint?</p>
+          <a class="button" href="#order" onclick="slowScroll('#order')">ОФОРМИТЬ ЗАКАЗ</a>
+        </div>
+      </div>
+    </div>
+    <div class="list__wrapper">
+      <ul class="promo__list">
+        <li class="promo__item">Быстрее.</li>
+        <li class="promo__item">Выше.</li>
+        <li class="promo__item">Сильнее.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="contacts">
+    <h2 class="contacts__title">LevelUp</h2>
+    <p class="contacts__text-timer">Успей купить по скидке!!!</p>
+    <p id="countdown"></p>
+    <div class="container">
+      <div class="contacts__wrapper">
+        <div class="contacts__price">
+          <img class="contacts__images" src="images/prod.png" alt="prod">
+          <p class="contacts__price-old">1000 р.</p>
+          <p class="contacts__price-new">999 Рублей</p>
+        </div>
+        <form class="contacts__form">
+          <h2 class="contacts__form-title">Оставить заявку</h2>
+          <input class="contacts__input" type="name" placeholder="Как Вас зовут?" required>
+          <input class="contacts__input myValidate" type="tel" name="phone" placeholder="Введите номер +7 (999) 999-99-99" pattern="^[+][0-9] [(][0-9]{3}[)] [0-9]{3}[-][0-9]{2}[-][0-9]{2}$" required>
+          <button id="order" class="contacts__btn button" type="submit">Отправить заявку</button>
+        </form>
+      </div>
     </div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
